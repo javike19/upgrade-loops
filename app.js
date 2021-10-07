@@ -23,5 +23,11 @@ for (let i = 0; i < alumns.length; i++) {
     } else if(alumns[i].T2 & alumns[i].T3 === true){
         console.log(alumns[i].name + " isApproved");
     }
-    
 }
+
+//Iteración #3
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
+
+for(let travel of placesToTravel){
+console.log(travel);
+};
